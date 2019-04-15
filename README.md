@@ -5,9 +5,9 @@
 ## dropdemo
   Implementing Drop Function of HTML5
 
-#### Attention!
+#### *Attention!
     See the comments in the code
 ## canvasdemo
   Implementing Drop Function of HTML5
-#### Attention!
+#### *Attention!
     Chrome needs the document to be loaded before it can get the canvas object
