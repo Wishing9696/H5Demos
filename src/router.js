@@ -20,6 +20,21 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    },
+    {
+      path: '/videodemo',
+      name: 'videodemo',
+      component: () => import('./components/videodemo.vue')
+    },
+    {
+      path:'/dropdemo',
+      name: 'dropdemo',
+      component: () => import('./components/dropdemo.vue')
+    },
+    {
+      path:'/canvasdemo',
+      name:'canvasdemo',
+      component: () => import('./components/canvasdemo.vue')
     }
   ]
 })
