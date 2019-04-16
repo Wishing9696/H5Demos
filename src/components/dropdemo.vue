@@ -1,7 +1,9 @@
 <template>
   <div id="dropdemo">
     <div id="div1" @drop="drop" @dragover="dragover">
-      <div v-if="droppedItem !== ''"></div>
+      <!--
+        <div v-if="droppedItem !== ''"></div>
+      -->
     </div>
     <img
       id="drag1"
@@ -16,9 +18,7 @@
 <script>
 export default {
   data() {
-    return {
-     
-    };
+    return {};
   },
   methods: {
     dragstart(ev) {

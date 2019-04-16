@@ -15,7 +15,7 @@ export default {
   },
   data() {
     return {
-       src: require('../assets/a.ogg')
+       src: require('../assets/videodemo/a.ogg')
     };
   }
 };

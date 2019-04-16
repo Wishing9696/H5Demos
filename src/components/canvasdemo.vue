@@ -1,8 +1,5 @@
 <template>
   <div id="canvasdemo">
-    <p>
-      <el-button @click="click">Canvas</el-button>
-    </p>
     <canvas id="myCanvas"></canvas>
   </div>
 </template>
@@ -10,9 +7,6 @@
 <script>
 export default {
   methods: {
-    click() {
-      this.writecanvas();
-    },
     writecanvas() {
       var canvas = document.getElementById("myCanvas");
       var ctx = canvas.getContext("2d");
@@ -40,7 +34,12 @@ export default {
       ctx.moveTo(75, 50);
       ctx.lineTo(300, 200);
       ctx.stroke();
+    },
+    
+  },
+  mounted() {
+      this.writecanvas();
     }
-  }
+  
 };
 </script>
