@@ -11,3 +11,6 @@
   Implementing Drop Function of HTML5
 #### *Attention!
     Chrome needs the document to be loaded before it can get the canvas object
+  
+## svgdemo
+  see assets/svgdemo/a.svg in vscode.
