@@ -16,5 +16,8 @@
 ## svgdemo.vue
     see assets/svgdemo/a.svg in vscode.
 
-## localstoragedemo.vue
-    see console
+## storagedemo.vue
+    see console.
+
+## vueworkerdemo.vue
+    import vue-worker component to realize web worker

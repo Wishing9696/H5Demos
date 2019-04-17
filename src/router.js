@@ -46,5 +46,10 @@ export default new Router({
       name: 'storagedemo',
       component: () => import('./components/storagedemo.vue')
     },
+    {
+      path: '/vueworkerdemo',
+      name: 'vueworkerdemo',
+      component: () => import('./components/vueworkerdemo.vue')
+    }
   ]
 })

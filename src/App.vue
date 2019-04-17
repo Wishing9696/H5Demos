@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-        <router-link v-for="l in links" :key="l.label" :to="l.link">{{l.label}} | </router-link>
+      <router-link v-for="l in links" :key="l.label" :to="l.link">{{l.label}} |</router-link>
     </div>
     <router-view/>
   </div>
@@ -19,7 +19,8 @@ export default {
         { link: "/dropdemo", label: "DropDemo" },
         { link: "/canvasdemo", label: "CanvasDemo" },
         { link: "/svgdemo", label: "SvgDemo" },
-        { link: "/storagedemo", label: "StorageDemo"}
+        { link: "/storagedemo", label: "StorageDemo" },
+        { link: "/vueworkerdemo", label: "VueWorkerDemo" }
       ]
     };
   }
