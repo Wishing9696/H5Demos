@@ -18,7 +18,8 @@ export default {
         { link: "/videodemo", label: "VideoDemo" },
         { link: "/dropdemo", label: "DropDemo" },
         { link: "/canvasdemo", label: "CanvasDemo" },
-        { link: "/svgdemo", label: "SvgDemo" }
+        { link: "/svgdemo", label: "SvgDemo" },
+        { link: "/storagedemo", label: "StorageDemo"}
       ]
     };
   }

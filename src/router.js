@@ -37,9 +37,14 @@ export default new Router({
       component: () => import('./components/canvasdemo.vue')
     },
     {
-      path:'svgdemo',
+      path:'/svgdemo',
       name:'svgdemo',
       component: () => import('./components/svgdemo.vue')
-    }
+    },
+    {
+      path: '/storagedemo',
+      name: 'storagedemo',
+      component: () => import('./components/storagedemo.vue')
+    },
   ]
 })

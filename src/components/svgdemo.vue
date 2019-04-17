@@ -6,5 +6,5 @@
         style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"
       ></polygon>
     </svg>
-  </div>
+    </div>
 </template>
